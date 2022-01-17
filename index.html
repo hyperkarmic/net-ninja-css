@@ -4,38 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Learning HTML</title>
+    <title>HTML Forms</title>
   </head>
   <body>
-    <div>
-      <p class="">Kama-<strong>kura</strong></p>
-      <p class="">Late <small>learning</small>. The <em>hard</em> way.</p>
-      <a href="">google</a>
-      <a href="about.html" class="">about</a>
-    </div>
+    <h1>HTML Forms</h1>
+    <form>
+      <label for="username">enter username</label>
+      <input type="text" id="username" name="username" required />
+      <br /><br />
+      <label for="email">enter email</label>
+      <input type="email" id="email" name="email" />
+      <br /><br />
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" />
+      <p>Select Your age!!!!</p>
+      <input type="radio" name="age" value="0-25" id="option-1" />
+      <label for="option-1">0-25</label>
+      <input type="radio" name="age" value="26-50" id="option-2" />
+      <label for="option-2">26-50</label>
+      <input type="radio" name="age" value="50+" id="option-3" />
+      <label for="option-3">50+</label>
 
-    <div>
-      <h1>heading 1</h1>
-      <h2>heading 2</h2>
-      <h3>heading 3</h3>
-      <h4>heading 4</h4>
-    </div>
-    <div>
-      <ul>
-        <li>Ryu</li>
-        <li>Ken</li>
-        <li>Bison</li>
-      </ul>
-    </div>
-    <span
-      >I am the fly in<br />
-      the ointment</span
-    >
-    <hr />
-    <img src="anarchy.jpg" alt="anarchy!!!" />
-    <blockquote cite="http:/www.bbc.co.uk">
-      Ever Had The Feeling You've Been Cheated - Johnny Rotten
-    </blockquote>
-    <p style="color: orangered">style-mich!!!!</p>
+      <br /><br />
+      <label for="question">Security Question</label>
+      <select name="question" id="question">
+        <option value="q1">what colour are you baubles???</option>
+        <option value="q2">what kind of vegetable is Michael?</option>
+      </select>
+      <br /><br />
+      <label for="answer">Security question answer</label>
+      <input type="text" id="answer" name="answer" />
+      <br /><br />
+      <label for="bio">Your Bio...</label><br />
+      <textarea
+        name="bio"
+        id="bio"
+        cols="30"
+        rows="10"
+        placeholder="go to hell"
+      ></textarea>
+      <br /><br />
+      <input type="submit" value="submit form" />
+    </form>
   </body>
 </html>
