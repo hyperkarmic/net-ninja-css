@@ -1,11 +1,47 @@
-span {
-  display: inline-block;
-  margin: 20px;
+/* /* #content {
+  background-color: #ededed;
   padding: 20px;
 }
 
+p {
+  color: blueviolet;
+}
+
+p.error {
+  color: orange;
+}
+
+p.success {
+  color: green;
+}
+
+p.success.feedback {
+  border: 2px dashed red;
+} */
+/* div .error {
+  color: red;
+} */
+
+/* a[href*='yandex'] {
+  background-color: #3dd13d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+/* a[href*='google'] {
+  color: white;
+  background-color: red;
+  border: 2px dashed blue;
+} */
+
 div {
-  border: 2px solid crimson;
-  margin: 20px;
-  padding: 20px;
+  border: 3px pink dotted;
+  color: lightcoral;
+}
+
+p {
+  border: inherit;
+  color: blue;
 }
